@@ -4,6 +4,8 @@
 
 Version: 0.1.0 · Last updated: 2026-11-13
 
+🌐 https://atelier-verificare.chiuta.ro
+
 > A local-first verification toolkit for journalists: image provenance, metadata, links and domains.
 
 Trade-free: no tracking, no ads, no accounts, works offline.

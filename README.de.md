@@ -4,6 +4,8 @@
 
 Version: 0.1.0 · Letzte Aktualisierung: 2026-11-13
 
+🌐 https://atelier-verificare.chiuta.ro
+
 > Lokales Verifikations-Toolkit für Journalisten: Bildherkunft, Metadaten, Links und Domains.
 
 Trade-free: kein Tracking, keine Werbung, keine Konten, funktioniert offline.

@@ -4,6 +4,8 @@
 
 Version : 0.1.0 · Dernière mise à jour : 2026-11-13
 
+🌐 https://atelier-verificare.chiuta.ro
+
 > Boîte à outils de vérification locale pour journalistes : provenance des images, métadonnées, liens et domaines.
 
 Trade-free : sans suivi, sans publicité, sans compte, fonctionne hors ligne.

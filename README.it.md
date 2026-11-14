@@ -4,6 +4,8 @@
 
 Versione: 0.1.0 · Ultimo aggiornamento: 2026-11-13
 
+🌐 https://atelier-verificare.chiuta.ro
+
 > Kit di verifica locale per giornalisti: provenienza delle immagini, metadati, link e domini.
 
 Trade-free: nessun tracciamento, nessuna pubblicità, nessun account, funziona offline.

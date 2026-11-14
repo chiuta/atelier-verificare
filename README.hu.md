@@ -4,6 +4,8 @@
 
 Verzió: 0.1.0 · Utolsó frissítés: 2026-11-13
 
+🌐 https://atelier-verificare.chiuta.ro
+
 > Helyben futó ellenőrző eszköztár újságíróknak: képek eredete, metaadatok, hivatkozások, domainek.
 
 Trade-free: nincs követés, nincs reklám, nincs fiók, offline is működik.

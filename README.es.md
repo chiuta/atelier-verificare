@@ -4,6 +4,8 @@
 
 Versión: 0.1.0 · Última actualización: 2026-11-13
 
+🌐 https://atelier-verificare.chiuta.ro
+
 > Kit de verificación local para periodistas: procedencia de imágenes, metadatos, enlaces y dominios.
 
 Trade-free: sin rastreo, sin anuncios, sin cuentas, funciona sin conexión.

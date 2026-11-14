@@ -4,6 +4,8 @@
 
 Versiune: 0.1.0 · Ultima actualizare: 2026-11-13
 
+🌐 https://atelier-verificare.chiuta.ro
+
 > Trusă de verificare locală pentru jurnaliști: proveniența imaginilor, metadate, linkuri și domenii.
 
 Fără comerț (trade-free): fără urmărire, fără reclame, fără conturi, funcționează offline.
