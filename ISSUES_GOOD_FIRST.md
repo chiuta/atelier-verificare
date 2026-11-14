@@ -1,5 +1,7 @@
 # Good first issues
 
+**English** · [Română](ISSUES_GOOD_FIRST.ro.md) · [Français](ISSUES_GOOD_FIRST.fr.md) · [Italiano](ISSUES_GOOD_FIRST.it.md) · [Español](ISSUES_GOOD_FIRST.es.md) · [Português](ISSUES_GOOD_FIRST.pt.md) · [Deutsch](ISSUES_GOOD_FIRST.de.md) · [Magyar](ISSUES_GOOD_FIRST.hu.md)
+
 - [ ] Specify the check API (inputs, outputs, status levels) in docs/check-api.md
 - [ ] Implement a proper EXIF parser check (GPS, camera, software, timestamps)
 - [ ] Add a C2PA manifest check (offline, read-only)
