@@ -1,0 +1,19 @@
+{
+  "slug": "atelier-verificare",
+  "version": "0.2.0",
+  "updated": "2026-11-17",
+  "plugins": "checks",
+  "data": "data/checks",
+  "connect": [
+    "https://archive.org",
+    "https://cloudflare-dns.com",
+    "https://dns.google"
+  ],
+  "csp": {
+    "img-src": ["blob:"],
+    "media-src": ["blob:"]
+  },
+  "pwa": {
+    "categories": ["utilities", "productivity", "news"]
+  }
+}

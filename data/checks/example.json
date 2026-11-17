@@ -1,8 +1,8 @@
 {
-  "id": "exif-inspector",
-  "name": "EXIF inspector",
-  "input": "image",
-  "entry": "checks/exif-inspector.js",
+  "id": "my-check",
+  "name": "My check (rename me)",
+  "input": ["image"],
+  "entry": "checks/my-check.js",
   "offline": true,
-  "description": "Lists camera, GPS and software metadata found in an image."
+  "description": "One sentence: what the check looks at and what it cannot prove."
 }

@@ -1,0 +1,8 @@
+{
+  "id": "ela-jpeg",
+  "name": "Error level analysis (JPEG)",
+  "input": "image",
+  "entry": "checks/ela-jpeg.js",
+  "offline": true,
+  "description": "Re-compresses the JPEG and shows where the error differs. A hint only: edges and saturated areas are bright anyway."
+}

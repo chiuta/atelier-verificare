@@ -1,0 +1,8 @@
+{
+  "id": "file-structure",
+  "name": "File structure",
+  "input": "file",
+  "entry": "checks/file-structure.js",
+  "offline": true,
+  "description": "Real file type (from content), extension match, dimensions, data appended after the end of the file, JPEG quality, truncation."
+}

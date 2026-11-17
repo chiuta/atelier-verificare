@@ -1,0 +1,8 @@
+{
+  "id": "exif-inspector",
+  "name": "EXIF inspector",
+  "input": "image",
+  "entry": "checks/exif-inspector.js",
+  "offline": true,
+  "description": "Camera, lens, software, dates, GPS position, embedded thumbnail and size mismatches, serial numbers."
+}

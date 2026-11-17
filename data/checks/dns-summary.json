@@ -1,0 +1,9 @@
+{
+  "id": "dns-summary",
+  "name": "DNS summary (DNS over HTTPS)",
+  "input": ["domain", "url"],
+  "entry": "checks/dns-summary.js",
+  "offline": false,
+  "network": ["cloudflare-dns.com", "dns.google"],
+  "description": "A, AAAA, NS, MX, SPF/DMARC, CAA and DNSSEC for a domain, cross-checked between two public resolvers. Sends the domain name to them, only when you ask."
+}

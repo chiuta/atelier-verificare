@@ -1,0 +1,16 @@
+{
+  "name": "atelier-verificare",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "description": "Local-first verification toolkit for journalists: image provenance, metadata, links and domains.",
+  "license": "MIT",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "test": "node --test \"test/*.test.mjs\"",
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/build.mjs --check && python3 scripts/validate.py"
+  }
+}

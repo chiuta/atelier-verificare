@@ -1,0 +1,8 @@
+{
+  "id": "c2pa-reader",
+  "name": "Content Credentials (C2PA), read-only",
+  "input": ["image", "video"],
+  "entry": "checks/c2pa-reader.js",
+  "offline": true,
+  "description": "Detects and reads C2PA manifests (generator, actions, AI source, signer). Does not validate the signature, the certificate chain or the file hash."
+}

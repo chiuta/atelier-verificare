@@ -1,0 +1,8 @@
+{
+  "id": "video-keyframes",
+  "name": "Video keyframes",
+  "input": "video",
+  "entry": "checks/video-keyframes.js",
+  "offline": true,
+  "description": "Extracts evenly spaced frames in the browser, to search them in image search engines or compare them with other sources."
+}

@@ -1,0 +1,8 @@
+{
+  "id": "text-hygiene",
+  "name": "Hidden characters in text",
+  "input": "text",
+  "entry": "checks/text-hygiene.js",
+  "offline": true,
+  "description": "Invisible characters, direction controls, words mixing alphabets, links inside a pasted text."
+}

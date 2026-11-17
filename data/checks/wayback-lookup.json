@@ -1,0 +1,9 @@
+{
+  "id": "wayback-lookup",
+  "name": "Internet Archive lookup",
+  "input": "url",
+  "entry": "checks/wayback-lookup.js",
+  "offline": false,
+  "network": ["archive.org"],
+  "description": "Whether the Internet Archive has a copy of the link and the HTTP code it had. Sends the link to archive.org, only when you ask."
+}

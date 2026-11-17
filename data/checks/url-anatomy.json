@@ -1,0 +1,8 @@
+{
+  "id": "url-anatomy",
+  "name": "Link anatomy",
+  "input": "url",
+  "entry": "checks/url-anatomy.js",
+  "offline": true,
+  "description": "Where a link really goes: the @ trick, look-alike letters, IP hosts, shorteners, tracking parameters. Never opens the link."
+}

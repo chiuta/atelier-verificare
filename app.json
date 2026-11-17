@@ -1,0 +1,93 @@
+{
+  "schema": 1,
+  "slug": "atelier-verificare",
+  "name": "Atelier de verificare — A local-first verification toolkit for journalists: image provenance, metadata, links and domains",
+  "version": "0.2.0",
+  "updated": "2026-11-17",
+  "description": "A local-first verification toolkit for journalists: image provenance, metadata, links and domains",
+  "egress": [
+    {
+      "host": "archive.org",
+      "via": [
+        "csp:connect-src"
+      ]
+    },
+    {
+      "host": "cloudflare-dns.com",
+      "via": [
+        "csp:connect-src"
+      ]
+    },
+    {
+      "host": "dns.google",
+      "via": [
+        "csp:connect-src"
+      ]
+    }
+  ],
+  "permissions": [
+    "clipboard",
+    "serviceWorker",
+    "localStorage",
+    "Web Crypto",
+    "WebGL"
+  ],
+  "storageKeys": [
+    "atelier-verificare.case"
+  ],
+  "sizeBytes": 630363,
+  "sha256": "65a046b09bbe62c9749d76fc032b3770dcd2fb60ca8840901f925ae450cebbb7",
+  "csp": {
+    "present": true,
+    "directives": {
+      "default-src": "'none'",
+      "script-src": "sha256×7",
+      "style-src": "sha256×3",
+      "img-src": "'self' data: blob:",
+      "base-uri": "'none'",
+      "form-action": "'none'",
+      "connect-src": "https://archive.org https://cloudflare-dns.com https://dns.google",
+      "media-src": "blob:",
+      "manifest-src": "'self'",
+      "worker-src": "'self'"
+    },
+    "scriptInline": "hash",
+    "connect": "https://archive.org https://cloudflare-dns.com https://dns.google"
+  },
+  "features": {
+    "export": true,
+    "import": true,
+    "i18n": [
+      "ro",
+      "en",
+      "fr",
+      "it",
+      "es",
+      "pt",
+      "hu",
+      "de"
+    ],
+    "pwa": {
+      "manifest": true,
+      "serviceWorker": true
+    },
+    "modules": [
+      "core",
+      "store",
+      "view",
+      "a11y",
+      "share"
+    ]
+  },
+  "kit": {
+    "version": "1.8.0",
+    "modules": [
+      "core",
+      "store",
+      "view",
+      "a11y",
+      "share"
+    ]
+  },
+  "selfSerializing": false
+}

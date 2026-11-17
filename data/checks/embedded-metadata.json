@@ -1,0 +1,8 @@
+{
+  "id": "embedded-metadata",
+  "name": "XMP, IPTC and text fields",
+  "input": "image",
+  "entry": "checks/embedded-metadata.js",
+  "offline": true,
+  "description": "Edit history, creator tool and declared AI source in XMP; IPTC captions and credits; JPEG comments; PNG text chunks written by AI image generators."
+}

@@ -1,0 +1,8 @@
+{
+  "id": "video-meta",
+  "name": "Video container metadata",
+  "input": "video",
+  "entry": "checks/video-meta.js",
+  "offline": true,
+  "description": "Creation date, duration, recorded location and the program that wrote an MP4/MOV/WebM file."
+}

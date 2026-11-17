@@ -1,0 +1,73 @@
+/* ATELIER DE VERIFICARE · stiluri pentru secțiunea aplicației (doar clase; politica CSP interzice atributele style) */
+.at-intro{max-width:72ch}
+.at-banner{max-width:78ch;border-left:3px solid var(--ac);padding:4px 0 4px 10px;margin:10px 0 4px}
+.at-sec{margin:22px 0 0}
+.at-sec h3,#app .at-sec h3{margin:0 0 8px;font-size:1.15rem}
+.at-sec h4{margin:16px 0 6px;font-size:1rem}
+.at-f{display:flex;flex-direction:column;gap:4px;margin:10px 0;font-size:.9rem;color:var(--mut);min-width:0;max-width:100%}
+.at-f>span{font-weight:650}
+.at-inp{background:var(--card);color:var(--tx);border:1px solid var(--line);border-radius:10px;font:inherit;font-size:1rem;min-height:44px;padding:8px 10px;width:100%;max-width:72ch;box-sizing:border-box}
+.at-inp:hover{border-color:var(--ac)}
+textarea.at-inp{resize:vertical;min-height:84px}
+.at-filein{font:inherit;color:var(--tx);max-width:100%}
+.at-row{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:10px 0}
+.at-small{padding:4px 12px;min-height:36px;font-size:.84rem}
+.at-drop{border:2px dashed var(--line);border-radius:14px;padding:14px 16px;margin:8px 0}
+.at-drop p{margin:0 0 6px}
+.at-drop.at-over{border-color:var(--ac);background:var(--bg2)}
+.at-chk{display:flex;gap:10px;align-items:flex-start;margin:12px 0;max-width:78ch;cursor:pointer}
+.at-chk input{width:22px;height:22px;flex:none;margin-top:2px}
+.at-svc{margin:6px 0 4px;padding-left:1.2em;max-width:78ch}
+.at-svc li{margin:.35em 0}
+.at-summary{margin:6px 0;font-weight:650}
+.at-status{min-height:1.5em;margin:4px 0 10px;color:var(--mut)}
+.at-empty{color:var(--mut)}
+.at-item{border:1px solid var(--line);border-radius:14px;background:var(--bg2);padding:12px 14px;margin:14px 0}
+.at-ihead{display:flex;flex-wrap:wrap;gap:12px;align-items:flex-start}
+.at-thumb{width:84px;height:84px;object-fit:cover;border-radius:10px;border:1px solid var(--line);flex:none}
+.at-imeta{flex:1 1 16em;min-width:0}
+.at-imeta h4{margin:0 0 2px;font-size:1.05rem;overflow-wrap:anywhere}
+.at-sub{margin:2px 0;color:var(--mut);font-size:.88rem;overflow-wrap:anywhere}
+.at-hash{margin:4px 0;font-size:.86rem;overflow-wrap:anywhere}
+.at-hash code{font-size:.8rem;word-break:break-all}
+.at-links{margin:4px 0;font-size:.9rem}
+.at-iact{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.at-checks{margin-top:10px}
+.at-check{border-top:1px solid var(--line);padding:10px 0 4px}
+.at-chead{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.at-chead h5{margin:0;font-size:.98rem;flex:1 1 12em}
+.at-desc{margin:4px 0;color:var(--mut);font-size:.88rem;max-width:80ch}
+.at-netnote{margin:4px 0;font-size:.86rem;border-left:3px solid var(--ac);padding-left:8px;max-width:80ch}
+.at-err{margin:6px 0;font-weight:650}
+.at-findings{list-style:none;margin:8px 0;padding:0;max-width:90ch}
+.at-findings li{margin:4px 0;padding:6px 10px;border-left:4px solid var(--line);background:var(--card);border-radius:0 8px 8px 0;overflow-wrap:anywhere}
+.at-findings li.lv-ok{border-left-color:#2e8b57}
+.at-findings li.lv-info{border-left-color:#4a78c2}
+.at-findings li.lv-warn{border-left-color:#c58a00}
+.at-findings li.lv-fail{border-left-color:#d6453b}
+.at-findings li.lv-skip{border-left-color:var(--line);color:var(--mut)}
+.at-lv{font-weight:750;font-size:.8rem;text-transform:uppercase;letter-spacing:.04em;margin-right:6px}
+.at-badge{display:inline-block;padding:3px 10px;border-radius:999px;font-size:.8rem;font-weight:750;color:#fff;background:#555;white-space:nowrap}
+.at-badge.lv-ok{background:#1f6f3f}
+.at-badge.lv-info{background:#2d4f8a}
+.at-badge.lv-warn{background:#7c5200}
+.at-badge.lv-fail{background:#a3271f}
+.at-badge.lv-skip,.at-badge.lv-error{background:#4a4a4a}
+.at-badge.lv-run{background:#2d4f8a}
+.at-arts{display:flex;flex-wrap:wrap;gap:12px;margin:8px 0}
+.at-fig{margin:0;max-width:100%}
+.at-fig figcaption{font-size:.8rem;color:var(--mut);margin:4px 0;max-width:28em}
+.at-art{display:block;max-width:100%;height:auto;border:1px solid var(--line);border-radius:8px;background:#000}
+.at-lim{max-width:80ch;padding-left:1.2em}
+.at-lim li{margin:.4em 0}
+.at-offscreen{position:fixed;left:-9999px;top:0;width:1px;height:1px;opacity:0}
+#at-printroot{display:none}
+@media print{
+  body.at-printing>*{display:none!important}
+  body.at-printing>#at-printroot{display:block!important;color:#000;background:#fff;font:12pt/1.45 serif;padding:0;margin:0}
+  #at-printroot h1{font-size:20pt;margin:0 0 6pt}
+  #at-printroot h2{font-size:14pt;margin:14pt 0 4pt;break-after:avoid}
+  #at-printroot h3{font-size:12pt;margin:8pt 0 2pt;break-after:avoid}
+  #at-printroot code{font:10pt monospace;word-break:break-all}
+  #at-printroot li{break-inside:avoid}
+}

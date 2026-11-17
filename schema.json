@@ -19,17 +19,37 @@
       "minLength": 1
     },
     "input": {
-      "enum": [
-        "image",
-        "url",
-        "domain",
-        "text",
-        "video"
+      "oneOf": [
+        {
+          "enum": [
+            "file",
+            "image",
+            "video",
+            "url",
+            "domain",
+            "text"
+          ]
+        },
+        {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "enum": [
+              "file",
+              "image",
+              "video",
+              "url",
+              "domain",
+              "text"
+            ]
+          }
+        }
       ]
     },
     "entry": {
       "type": "string",
-      "minLength": 1
+      "pattern": "^checks/[a-z0-9-]+\\.js$"
     },
     "offline": {
       "type": "boolean"
@@ -37,6 +57,14 @@
     "description": {
       "type": "string",
       "minLength": 1
+    },
+    "network": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z0-9.-]+\\.[a-z]{2,}$"
+      }
     }
-  }
+  },
+  "additionalProperties": false
 }
