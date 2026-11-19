@@ -2,8 +2,8 @@
   "schema": 1,
   "slug": "atelier-verificare",
   "name": "Atelier de verificare — A local-first verification toolkit for journalists: image provenance, metadata, links and domains",
-  "version": "0.2.0",
-  "updated": "2026-11-17",
+  "version": "0.2.1",
+  "updated": "2026-11-20",
   "description": "A local-first verification toolkit for journalists: image provenance, metadata, links and domains",
   "egress": [
     {
@@ -35,8 +35,8 @@
   "storageKeys": [
     "atelier-verificare.case"
   ],
-  "sizeBytes": 630363,
-  "sha256": "65a046b09bbe62c9749d76fc032b3770dcd2fb60ca8840901f925ae450cebbb7",
+  "sizeBytes": 633869,
+  "sha256": "5adca15913290d38c2b61b2f2c8946ab72722add4e4f3e7b0bbe4860f34f525c",
   "csp": {
     "present": true,
     "directives": {
@@ -80,7 +80,7 @@
     ]
   },
   "kit": {
-    "version": "1.8.0",
+    "version": "1.8.1",
     "modules": [
       "core",
       "store",

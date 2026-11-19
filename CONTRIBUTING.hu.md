@@ -2,7 +2,7 @@
 
 [English](CONTRIBUTING.md) · [Română](CONTRIBUTING.ro.md) · [Français](CONTRIBUTING.fr.md) · [Italiano](CONTRIBUTING.it.md) · [Español](CONTRIBUTING.es.md) · [Português](CONTRIBUTING.pt.md) · [Deutsch](CONTRIBUTING.de.md) · **Magyar**
 
-Verzió: 0.2.0 · Utolsó frissítés: 2026-11-17
+Verzió: 0.2.1 · Utolsó frissítés: 2026-11-20
 
 1. Forkold ezt a tárolót.
 2. Másold a `data/checks/example.json` fájlt `data/checks/<id>.json` néven, és szerkeszd (séma: `schema.json`), majd futtasd a `python scripts/validate.py` parancsot.
