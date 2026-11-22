@@ -3,7 +3,7 @@
   "slug": "atelier-verificare",
   "name": "Atelier de verificare — A local-first verification toolkit for journalists: image provenance, metadata, links and domains",
   "version": "0.2.1",
-  "updated": "2026-11-20",
+  "updated": "2026-11-22",
   "description": "A local-first verification toolkit for journalists: image provenance, metadata, links and domains",
   "egress": [
     {
@@ -35,8 +35,8 @@
   "storageKeys": [
     "atelier-verificare.case"
   ],
-  "sizeBytes": 633869,
-  "sha256": "5adca15913290d38c2b61b2f2c8946ab72722add4e4f3e7b0bbe4860f34f525c",
+  "sizeBytes": 633929,
+  "sha256": "46d8c4904c3b99c07dc5c62f90c264ade0be25ae06f269fc44c5b36d9aa42db3",
   "csp": {
     "present": true,
     "directives": {
@@ -49,7 +49,8 @@
       "connect-src": "https://archive.org https://cloudflare-dns.com https://dns.google",
       "media-src": "blob:",
       "manifest-src": "'self'",
-      "worker-src": "'self'"
+      "worker-src": "'self'",
+      "upgrade-insecure-requests": "''"
     },
     "scriptInline": "hash",
     "connect": "https://archive.org https://cloudflare-dns.com https://dns.google"
